@@ -8,14 +8,19 @@
 #string = "Look mom, no hands"
 string = "Javascript is for wannabees"
 
-
+#converts string to hexa
 def convert(string):
     result = ""
+    #iterate over every single character in the string
     for item in string:
+        #store the current chars ascii value
         currentChar = ord(item)
+        #store the inner result
         res = ""
+        #do the hexadecimal conversion
         while currentChar != 0:
             #print(bla%16)
+            #if the remainder of the division has a certain value, do something
             x = currentChar % 16
             if x == 10:
                 res = 'a' + res
@@ -31,20 +36,30 @@ def convert(string):
                 res = 'f' + res
             else:
                 res = str(x) + res
+            #update the ascii value of the current character so it will be fully converted to hexa
             currentChar = currentChar // 16
         #print(res, item)
+        #add the inner result to the big result
         result += res
+        #clear the inner result for the next hexa value
         res = ""
     return result
 
+#a simple method that splits the string byte by byte
+#made it for me to be easier to convert from hex back to ascii
 def splitHexString(hx):
+    #in this list i store every hex value of each character in the string
     lst = []
+    #x is the current hex value
     x = ""
     for item in hx:
+        #if it contains two characters it means that it has to be stored
+        #and reinit it to nothing
         if len(x) == 2:
             #print(x, end = " ")
             lst.append(x)
             x = ""
+            #i add the current item so i don't lose it after i reinit x and the next loop starts
             x += item
         else:
             x += item
@@ -80,6 +95,8 @@ def fromHexToDecimal(hx):
 
 def textFromHex(hxList):
     result = ""
+    #reading every single char from the sliced hex string
+    #convert every value to ascii and concat them together
     for item in hxList:
         letter = chr(fromHexToDecimal(item))
         result += letter
