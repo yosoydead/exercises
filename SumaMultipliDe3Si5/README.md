@@ -1,1 +1,0 @@
-A simple loop that adds together numbers that are multiples of either 3 or 5

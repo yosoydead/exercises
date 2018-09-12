@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{19293571-8E9B-4E0F-99D6-F25DF8649F92}</ProjectGuid>
+    <ProjectGuid>{69BC426B-CCDB-4FCC-8991-56CAE3405889}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>sumaMultipli</RootNamespace>
-    <AssemblyName>sumaMultipli</AssemblyName>
+    <RootNamespace>matrix</RootNamespace>
+    <AssemblyName>matrix</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

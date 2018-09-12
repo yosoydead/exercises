@@ -1,0 +1,1 @@
+Some matrix operations. The code is self explanatory. Comments and function names are in romanian. I was being lazy when I wrote this program.
