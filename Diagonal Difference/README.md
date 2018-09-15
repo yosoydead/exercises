@@ -1,0 +1,1 @@
+It is a simple operation on a matrix. Calculate the main diagonal, the secondary and then subtract them.
