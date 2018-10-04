@@ -25,4 +25,4 @@ n = 9
 ```
 
 6. [x] 6) Read two integers m < n. You have to print every number that is a palindrome between m and n.
-7. [ ] 7) Read a number n <= 9999999. Calculate the sum of cubed digits in the number. Ex: if you read **25**, calculate **2^3 + 5^3 = 133**. Do the same with the result: **1^3 + 3^3 + 3^3 = 55**. Again **5^3 + 5^3 = 250**. Again **2^3 + 5^3 + 0^3 = 133**. Repeat the process until we optain a result that is already in the generated sequence. Print the values of the generated sequence. Ex: **n = 25** -> 25, 133, 55, 250, 133
+7. [x] 7) Read a number n <= 9999999. Calculate the sum of cubed digits in the number. Ex: if you read **25**, calculate **2^3 + 5^3 = 133**. Do the same with the result: **1^3 + 3^3 + 3^3 = 55**. Again **5^3 + 5^3 = 250**. Again **2^3 + 5^3 + 0^3 = 133**. Repeat the process until we optain a result that is already in the generated sequence. Print the values of the generated sequence. Ex: **n = 25** -> 25, 133, 55, 250, 133
