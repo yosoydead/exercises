@@ -30,4 +30,6 @@ n = 9
 9. [x] 9) Write a function that takes as a parameter the length of the side of a square and returns its area.
 10. [x] 10) Write a function that takes as a parameter the length of the side of a square and returns the diagonal and the perimeter of the square.
 11. [x] 11) Write a function that gets as parameters the length of the two catheti of a right triangle and returns the length of the hypotenuse.
-12. [ ] 12) Write a function that returns the first digit of a natural number.
+12. [x] 12) Write a function that returns the first digit of a natural number.
+13. [x] 13) Write a function that takes 3 parameters being the values of each side of a triangle and returns 1 of these sides can form a triangle and 0 if not.
+14. [ ] 14) Read n numbers, n < 100, and n integers < 30000. Your tasks are:  a) return the last digit of the sum of all n digits (x1+x2+x3+....+xn),  b) the last digit of the number x1^(x1+1)
