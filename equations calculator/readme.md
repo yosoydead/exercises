@@ -32,8 +32,10 @@ n = 9
 11. [x] 11) Write a function that gets as parameters the length of the two catheti of a right triangle and returns the length of the hypotenuse.
 12. [x] 12) Write a function that returns the first digit of a natural number.
 13. [x] 13) Write a function that takes 3 parameters being the values of each side of a triangle and returns 1 of these sides can form a triangle and 0 if not.
-14. [x] 14) Read n numbers, n < 100, and n integers < 30000. Your tasks are:  a) return the last digit of the sum of all n digits (x1+x2+x3+....+xn),  b) the last digit of the number x1^(x1+1)
-15. [ ] 15) Read two matrices and print their sum. The program will be done like this:  
+14. [x] 14) Read n numbers, n < 100, and n integers < 30000. Your tasks are:  
+a) return the last digit of the sum of all n digits (x1+x2+x3+....+xn),  
+b) the last digit of the number x1^(x1+1)
+15. [x] 15) Read two matrices and print their sum. The program will be done like this:  
 a) subprogram that reads m rows and n columns of a matrix  
 b) subprogram to print the matrix  
 c) subprogram to add the matrices  
