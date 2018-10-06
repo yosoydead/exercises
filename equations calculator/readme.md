@@ -42,4 +42,4 @@ c) subprogram to add the matrices
 d) the main program will be done by using the mentioned subprograms
 16. [x] 16) Write a program that prints all the prime numbers between two given numbers. The program will use a function that tests if the number is prime or not.
 17. [x] 17) Write a program that prints all the numbers between two given numbers that divide evenly with the sum of their digits. The program will use a function that returns the sum of the digits of a number parameter.
-18. [ ] 18) Write a function that intersects two sorted arrays knowing the elements are in descending order.
+18. [x] 18) Write a function that intersects two sorted arrays knowing the elements are in descending order.
