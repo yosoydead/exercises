@@ -4,3 +4,4 @@ The number of permutations of n distinct objects is n factorial, usually written
 **src https://en.wikipedia.org/wiki/Permutation**
 
 Here I'll do an implementation of my own, which is not that optimal but it works. Special thanks to a friend.
+After the initial solution, I will refactor it using OOP.
